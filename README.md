@@ -34,5 +34,5 @@ $ npm install && npm run dev
 ![](https://i.imgur.com/txDdelR.png)
 > 一個好的產品名稱除了有助於提升品牌的競爭力之外，更能夠讓產品在眾多競爭對手當中脫穎而出
 
-![](https://i.imgur.com/JyPELfA.png)
+![](https://i.imgur.com/7GlKrf1.png)
 > 讓顧客直接進行結帳，提供顧客快速且便利的消費體驗
