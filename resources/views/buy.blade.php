@@ -14,7 +14,7 @@
                             @csrf
                             <input type="hidden" name="product_id" value="{{ $product->id }}" />
 
-                            <div class="form-group row">
+                            <div class="mb-3 row">
                                 <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
                                 <div class="col-md-6">
@@ -28,7 +28,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group row">
+                            <div class="mb-3 row">
                                 <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
                                 <div class="col-md-6">
@@ -42,7 +42,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group row">
+                            <div class="mb-3 row">
                                 <label for="address" class="col-md-4 col-form-label text-md-right">{{ __('Address') }}</label>
 
                                 <div class="col-md-6">
@@ -56,7 +56,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group row mb-0">
+                            <div class="row mb-0">
                                 <div class="col-md-6 offset-md-4">
                                     <button type="submit" class="btn btn-primary">
                                         {{ __('Confirm Purchase') }}

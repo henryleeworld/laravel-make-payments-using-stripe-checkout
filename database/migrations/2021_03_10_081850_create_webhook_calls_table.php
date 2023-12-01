@@ -3,12 +3,12 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateWebhookCallsTable extends Migration
+return new class extends Migration
 {
     public function up()
     {
         Schema::create('webhook_calls', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->id();
 
             $table->string('name');
             $table->text('payload')->nullable();
@@ -22,4 +22,4 @@ class CreateWebhookCallsTable extends Migration
     {
         Schema::dropIfExists('webhook_calls');
     }
-}
+};
